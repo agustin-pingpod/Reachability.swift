@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA7344711BE7678B008AFE69"
-               BuildableName = "Reachability.framework"
-               BlueprintName = "Reachability"
+               BuildableName = "ReachabilityKit.framework"
+               BlueprintName = "ReachabilityKit"
                ReferencedContainer = "container:Reachability.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -31,8 +31,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA7344711BE7678B008AFE69"
-            BuildableName = "Reachability.framework"
-            BlueprintName = "Reachability"
+            BuildableName = "ReachabilityKit.framework"
+            BlueprintName = "ReachabilityKit"
             ReferencedContainer = "container:Reachability.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,8 +63,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA7344711BE7678B008AFE69"
-            BuildableName = "Reachability.framework"
-            BlueprintName = "Reachability"
+            BuildableName = "ReachabilityKit.framework"
+            BlueprintName = "ReachabilityKit"
             ReferencedContainer = "container:Reachability.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -79,8 +79,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA7344711BE7678B008AFE69"
-            BuildableName = "Reachability.framework"
-            BlueprintName = "Reachability"
+            BuildableName = "ReachabilityKit.framework"
+            BlueprintName = "ReachabilityKit"
             ReferencedContainer = "container:Reachability.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

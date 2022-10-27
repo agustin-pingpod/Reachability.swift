@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "Reachability",
+    name: "ReachabilityKit",
     products: [
         .library(
-            name: "Reachability",
-            targets: ["Reachability"]),
+            name: "ReachabilityKit",
+            targets: ["ReachabilityKit"]),
     ],
     targets: [
         .target(
-            name: "Reachability",
+            name: "ReachabilityKit",
             dependencies: [],
             path: "Sources"),
         .testTarget(
             name: "ReachabilityTests",
-            dependencies: ["Reachability"],
+            dependencies: ["ReachabilityKit"],
             path: "Tests"),
     ]
 )

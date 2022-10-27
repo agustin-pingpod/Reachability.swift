@@ -14,7 +14,7 @@
 		335AD58E2052EA92000D4D08 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335AD5882052EA92000D4D08 /* Reachability.swift */; };
 		335AD58F2052EA92000D4D08 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 335AD5892052EA92000D4D08 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		335AD5A22052EB32000D4D08 /* ReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335AD58C2052EA92000D4D08 /* ReachabilityTests.swift */; };
-		335AD5A52052EE07000D4D08 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* Reachability.framework */; };
+		335AD5A52052EE07000D4D08 /* ReachabilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* ReachabilityKit.framework */; };
 		57A45A041C197BE800384AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A45A031C197BE800384AE4 /* AppDelegate.swift */; };
 		57A45A061C197BE800384AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A45A051C197BE800384AE4 /* ViewController.swift */; };
 		57A45A091C197BE800384AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A45A071C197BE800384AE4 /* Main.storyboard */; };
@@ -24,12 +24,12 @@
 		AA7344981BE76820008AFE69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7344961BE76820008AFE69 /* Main.storyboard */; };
 		AA73449A1BE76820008AFE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7344991BE76820008AFE69 /* Assets.xcassets */; };
 		AA7344B51BE769D6008AFE69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7344B31BE769D6008AFE69 /* LaunchScreen.xib */; };
-		CA0FDB6E22B6C7C1008CAD21 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* Reachability.framework */; };
-		CA0FDB6F22B6C7C1008CAD21 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CAC230C51BF2180000F6464E /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* Reachability.framework */; };
-		CAC230C61BF2180000F6464E /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CAE85CCD2136B21B00320E68 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* Reachability.framework */; };
-		CAE85CCE2136B21B00320E68 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CA0FDB6E22B6C7C1008CAD21 /* ReachabilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* ReachabilityKit.framework */; };
+		CA0FDB6F22B6C7C1008CAD21 /* ReachabilityKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* ReachabilityKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAC230C51BF2180000F6464E /* ReachabilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* ReachabilityKit.framework */; };
+		CAC230C61BF2180000F6464E /* ReachabilityKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* ReachabilityKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAE85CCD2136B21B00320E68 /* ReachabilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* ReachabilityKit.framework */; };
+		CAE85CCE2136B21B00320E68 /* ReachabilityKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* ReachabilityKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +70,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CAE85CCE2136B21B00320E68 /* Reachability.framework in Embed Frameworks */,
+				CAE85CCE2136B21B00320E68 /* ReachabilityKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +81,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CA0FDB6F22B6C7C1008CAD21 /* Reachability.framework in Embed Frameworks */,
+				CA0FDB6F22B6C7C1008CAD21 /* ReachabilityKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +92,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CAC230C61BF2180000F6464E /* Reachability.framework in Embed Frameworks */,
+				CAC230C61BF2180000F6464E /* ReachabilityKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,7 +118,7 @@
 		57A45A081C197BE800384AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57A45A0A1C197BE800384AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57A45A0C1C197BE800384AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA7344721BE7678B008AFE69 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7344721BE7678B008AFE69 /* ReachabilityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7344901BE76820008AFE69 /* ReachabilitySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachabilitySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7344921BE76820008AFE69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA7344941BE76820008AFE69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA0FDB6E22B6C7C1008CAD21 /* Reachability.framework in Frameworks */,
+				CA0FDB6E22B6C7C1008CAD21 /* ReachabilityKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335AD5A52052EE07000D4D08 /* Reachability.framework in Frameworks */,
+				335AD5A52052EE07000D4D08 /* ReachabilityKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE85CCD2136B21B00320E68 /* Reachability.framework in Frameworks */,
+				CAE85CCD2136B21B00320E68 /* ReachabilityKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC230C51BF2180000F6464E /* Reachability.framework in Frameworks */,
+				CAC230C51BF2180000F6464E /* ReachabilityKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +249,7 @@
 		AA7344731BE7678B008AFE69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA7344721BE7678B008AFE69 /* Reachability.framework */,
+				AA7344721BE7678B008AFE69 /* ReachabilityKit.framework */,
 				AA7344901BE76820008AFE69 /* ReachabilitySample.app */,
 				00C54B1F1C09CF67001C3F12 /* ReachabilityMacSample.app */,
 				57A45A011C197BE800384AE4 /* ReachabilityAppleTVSample.app */,
@@ -341,9 +341,9 @@
 			productReference = 57A45A011C197BE800384AE4 /* ReachabilityAppleTVSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA7344711BE7678B008AFE69 /* Reachability */ = {
+		AA7344711BE7678B008AFE69 /* ReachabilityKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA7344861BE7678B008AFE69 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildConfigurationList = AA7344861BE7678B008AFE69 /* Build configuration list for PBXNativeTarget "ReachabilityKit" */;
 			buildPhases = (
 				AA73446D1BE7678B008AFE69 /* Sources */,
 				AA73446E1BE7678B008AFE69 /* Frameworks */,
@@ -354,9 +354,9 @@
 			);
 			dependencies = (
 			);
-			name = Reachability;
+			name = ReachabilityKit;
 			productName = Reachability;
-			productReference = AA7344721BE7678B008AFE69 /* Reachability.framework */;
+			productReference = AA7344721BE7678B008AFE69 /* ReachabilityKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AA73448F1BE76820008AFE69 /* ReachabilitySample */ = {
@@ -429,7 +429,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA7344711BE7678B008AFE69 /* Reachability */,
+				AA7344711BE7678B008AFE69 /* ReachabilityKit */,
 				335AD5962052EB22000D4D08 /* ReachabilityTests */,
 				AA73448F1BE76820008AFE69 /* ReachabilitySample */,
 				00C54B1E1C09CF67001C3F12 /* ReachabilityMacSample */,
@@ -532,22 +532,22 @@
 /* Begin PBXTargetDependency section */
 		335AD59E2052EB22000D4D08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA7344711BE7678B008AFE69 /* Reachability */;
+			target = AA7344711BE7678B008AFE69 /* ReachabilityKit */;
 			targetProxy = 335AD59D2052EB22000D4D08 /* PBXContainerItemProxy */;
 		};
 		CA0FDB7122B6C7C2008CAD21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA7344711BE7678B008AFE69 /* Reachability */;
+			target = AA7344711BE7678B008AFE69 /* ReachabilityKit */;
 			targetProxy = CA0FDB7022B6C7C2008CAD21 /* PBXContainerItemProxy */;
 		};
 		CAC230C81BF2180000F6464E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA7344711BE7678B008AFE69 /* Reachability */;
+			target = AA7344711BE7678B008AFE69 /* ReachabilityKit */;
 			targetProxy = CAC230C71BF2180000F6464E /* PBXContainerItemProxy */;
 		};
 		CAE85CD02136B21B00320E68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA7344711BE7678B008AFE69 /* Reachability */;
+			target = AA7344711BE7678B008AFE69 /* ReachabilityKit */;
 			targetProxy = CAE85CCF2136B21B00320E68 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -932,7 +932,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA73446C1BE7678B008AFE69 /* Build configuration list for PBXProject "Reachability" */ = {
+		AA73446C1BE7678B008AFE69 /* Build configuration list for PBXProject "ReachabilityKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA7344841BE7678B008AFE69 /* Debug */,
@@ -941,7 +941,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA7344861BE7678B008AFE69 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+		AA7344861BE7678B008AFE69 /* Build configuration list for PBXNativeTarget "ReachabilityKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA7344871BE7678B008AFE69 /* Debug */,
